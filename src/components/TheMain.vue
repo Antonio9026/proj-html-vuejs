@@ -1,13 +1,17 @@
 <script >
+import AppHero from "./AppHero.vue"
 
+export default{
+    components:{
+        AppHero,
+    }
+}
 </script>
 
 <template>
-<h1>main</h1>
+   <AppHero></AppHero>
 </template>
 
 <style lang="scss" scoped>
-h1{
-    color: aqua;
-}
+
 </style>

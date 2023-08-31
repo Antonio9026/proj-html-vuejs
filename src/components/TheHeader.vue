@@ -49,35 +49,53 @@ export default {
             </div>
 
         </div>
+        <div class="jumbotron">
 
+        </div>
 
     </header>
 </template>
 
 <style lang="scss" scoped>
-.header_container {
+header {
     display: flex;
     justify-content: center;
-    height: 95px;
-    background-color: #260262;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
 }
+
+
+.header_container {
+    min-width:  94.5%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+    //   background-color: #260262;
+
+}
+
 
 
 
 .wrapper {
-    min-width: 81.5%;
+    height: 50px;
+    min-width: 85.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav_container{
+
+.nav_container {
     display: flex;
     align-items: center;
 }
+
 .nav_list {
     display: flex;
     list-style-type: none;
-    gap: 22px;
+    gap: 23px;
 }
 
 a {
@@ -85,24 +103,26 @@ a {
     color: white;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #ff7a1f;
 }
 
 button {
     width: 170px;
     height: 51px;
-    margin-left: 20px;
+    margin-left: 25px;
     font-size: 18px;
     border-radius: 50px;
     border: none;
     background-color: #FFDFED;
-    box-shadow:5px 5px 10px  #888888;
-    font-family: 'Chakra Petch', sans-serif;;
+    box-shadow: 5px 5px 10px #888888;
+    font-family: 'Chakra Petch', sans-serif;
+    ;
 }
-button:hover{
+
+button:hover {
     background-color: #260262;
-    box-shadow:5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #888888;
     border: 1px solid white;
-}
-</style>
+}</style>
