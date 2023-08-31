@@ -18,6 +18,10 @@ export default{
 <TheFooter></TheFooter>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" >
+body{
+    font-family: 'Chakra Petch', sans-serif;
 
+
+}
 </style>
