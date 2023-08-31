@@ -50,13 +50,16 @@
             <img src="../assets/img/bottom-shape.png" alt="">
         </div>
     </div>
+    <div class="hero-img-container">
+        <img class="hero-img" src="../assets/img/middle.png" alt="">
+    </div>
 </template>
 
 <style lang="scss" scoped>
 .hero-section {
     position: relative;
     padding-top: 160px;
-    display: flex;
+    // display: flex;
     background-image: url("../assets/img/banner-bg.png");
     background-position: top;
     min-height: 950px;
@@ -228,5 +231,18 @@
     overflow: hidden;
     height: 200px;
 
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    min-width: 1097px;
+    top: 612px;
+    left: 129px;
+}
+
+.hero-img {
+    width: 100%;
 }
 </style>
