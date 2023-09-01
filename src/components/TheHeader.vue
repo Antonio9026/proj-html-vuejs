@@ -125,4 +125,5 @@ button:hover {
     background-color: #260262;
     box-shadow: 5px 5px 10px #888888;
     border: 1px solid white;
+    color: white;
 }</style>

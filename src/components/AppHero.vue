@@ -64,6 +64,72 @@
     background-position: top;
     min-height: 950px;
 
+    .planet-top {
+        position: absolute;
+        width: 285px;
+        left: 445px;
+        top: -180px;
+
+        .planet-top-img {
+            width: 100%;
+        }
+    }
+
+    .planet-left {
+        position: absolute;
+        width: 130px;
+        left: 123px;
+        top: 129px;
+
+        .planet-left-img {
+            width: 100%;
+
+        }
+    }
+
+    .spaceship {
+        position: absolute;
+        width: 120px;
+        left: 1110px;
+        top: 100px;
+
+        .spaceship-img {
+
+            width: 100%;
+        }
+    }
+
+    .moon {
+        position: absolute;
+        width: 100px;
+        left: 864px;
+        top: 174px;
+
+        .moon-img {
+            width: 100%;
+        }
+    }
+
+    .container_dots_left {
+        position: absolute;
+        left: 50px;
+        top: 150px;
+
+        .dots-left-img {
+            width: 100%;
+
+        }
+
+    }
+
+    .container_dots_right {
+        position: absolute;
+        z-index: 0;
+        max-width: 50%;
+        right: 100px;
+        top: 80px;
+    }
+
     .container_img_left {
         padding-top: 85px;
         max-width: 220px;
@@ -82,6 +148,16 @@
         .right-img {
             width: 100%;
         }
+
+    }
+
+    .bottom-bg-image {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        height: 200px;
 
     }
 
@@ -129,6 +205,7 @@
                 box-shadow: 5px 5px 10px #888888;
                 font-family: 'Chakra Petch', sans-serif;
 
+
             }
 
             .b-left:hover {
@@ -151,86 +228,12 @@
             }
         }
     }
-}
-
-
-.planet-left {
-    position: absolute;
-    width: 130px;
-    left: 123px;
-    top: 129px;
-}
-
-.planet-left-img {
-    width: 100%;
 
 }
 
-.moon {
-    position: absolute;
-    width: 100px;
-    left: 864px;
-    top: 174px;
-}
-
-
-.moon-img {
-    width: 100%;
-}
-
-.spaceship {
-    position: absolute;
-    width: 120px;
-    left: 1110px;
-    top: 100px;
-}
-
-.spaceship-img {
-
-    width: 100%;
-}
-
-.planet-top {
-    position: absolute;
-    width: 285px;
-    left: 445px;
-    top: -180px;
-
-}
-
-.planet-top-img {
-
-    width: 100%;
-}
-
-.container_dots_left {
-    position: absolute;
-    left: 50px;
-    top: 150px;
-
-}
-
-.container_dots_right {
-    position: absolute;
-    z-index: 0;
-    max-width: 750px;
-    right: 100px;
-    top: 80px;
-}
-
-.dots-left-img {
-    width: 100%;
-
-}
-
-.bottom-bg-image {
-    position: absolute;
-    bottom: -40px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    height: 200px;
-
+.center {
+    position: relative;
+    z-index: 10;
 }
 
 .hero-img-container {
@@ -240,9 +243,9 @@
     min-width: 1097px;
     top: 612px;
     left: 129px;
-}
 
-.hero-img {
-    width: 100%;
+    .hero-img {
+        width: 100%;
+    }
 }
 </style>
