@@ -156,7 +156,7 @@
         bottom: -40px;
         left: 0;
         width: 100%;
-        overflow: hidden;
+        overflow:unset;
         height: 200px;
 
     }
