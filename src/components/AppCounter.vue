@@ -70,9 +70,7 @@ export default {
 }
 
 .title-container {
-    // max-width: 550px;
-    // margin: 0 auto;
-    // background-color: #311852;
+    
     position: relative;
     z-index: 40;
 }
@@ -129,7 +127,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // object-fit: contain;
+    
 
 }
 
