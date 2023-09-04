@@ -69,14 +69,17 @@ export default {
 
 h4 {
     font-size: 22px;
+    color:#4d36dc;
 }
 
 h1 {
     font-size: 55px;
+    color: #311852;
 }
 
 .header p {
     font-size: 18px;
+    color: #311852;
 }
 
 .process-cards {
@@ -89,13 +92,15 @@ h1 {
 
 .card {
     max-width: 260px;
-    border: 1px solid black;
+    border: 1px solid #b2b5d2;
+    border-radius: 50px;
 }
 
 .content {
     width: 80%;
     margin: 0 auto;
     line-height: 30px;
+    margin-bottom: 40px;
 }
 
 .content h2 {
@@ -106,7 +111,9 @@ h1 {
     width: 900px;
     position: relative;
 }
-
+.container-img{
+    
+}
 .process-img {
     position: absolute;
     left: -275px;
@@ -124,8 +131,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     background-color: #fff5f0;
+    margin-top: 40px;
+    border-radius: 50%;
 }
 
 .img-card-process img {
