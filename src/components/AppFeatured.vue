@@ -43,8 +43,6 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    // display: flex;
-    // justify-content: center;
     margin-top: 130px;
 }
 

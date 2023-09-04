@@ -21,8 +21,6 @@ export default{
 <style lang="scss" >
 body{
     font-family: 'Chakra Petch', sans-serif;
- 
- 
 
 }
 </style>

@@ -59,7 +59,6 @@
 .hero-section {
     position: relative;
     padding-top: 160px;
-    // display: flex;
     background-image: url("../assets/img/banner-bg.png");
     background-position: top;
     min-height: 950px;
@@ -156,7 +155,6 @@
         bottom: -40px;
         left: 0;
         width: 100%;
-        overflow:unset;
         height: 200px;
 
     }
@@ -164,8 +162,6 @@
     .jumbo-container {
         text-align: center;
         z-index: 1;
-
-        // min-height: max-content;
         .j-wrapper {
             width: 100%;
             display: flex;
